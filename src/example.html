@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container {
+            display: flex; /* Используем Flexbox */
+        }
+        .left-column {
+            width: 200px; /* Фиксированная ширина */
+            background-color: lightblue; /* Цвет фона для наглядности */
+        }
+        .center-column {
+            width: 70%; /* Процент от доступного пространства */
+            background-color: lightcoral; /* Цвет фона для наглядности */
+        }
+        .right-column {
+            flex-grow: 1; /* Заполняет оставшееся пространство */
+            background-color: lightgreen; /* Цвет фона для наглядности */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Три столбца</title>
+    <style>
+        /* CSS-стили будут описаны здесь */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">Левый столбец (200px)</div>
+        <div class="center-column">Центральный столбец (70%)</div>
+        <div class="right-column">Правый столбец</div>
+    </div>
+</body>
+</html>
